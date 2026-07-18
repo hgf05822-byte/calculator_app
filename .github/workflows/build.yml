@@ -9,3 +9,5 @@ jobs:
         uses: ArtemSBulgakov/buildozer-action@v1
         with:
           command: buildozer android debug
+        env:
+          BUILDOZER_ALLOW_UNSAFE: 1
